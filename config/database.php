@@ -46,8 +46,8 @@ return [
         'mysql' => [
             'driver' => 'mysql',
             'url' => env('DATABASE_URL'),
-            'host' => env('DB_HOST', 'mysql-19315-0.cloudclusters.net'),
-            'port' => env('DB_PORT', '19328'),
+            'host' => env('DB_HOST', 'mysql-22280-0.cloudclusters.net'),
+            'port' => env('DB_PORT', '22280'),
             'database' => env('DB_DATABASE', 'learning'),
             'username' => env('DB_USERNAME', 'firstcreation'),
             'password' => env('DB_PASSWORD', '12345678'),
